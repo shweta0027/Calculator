@@ -50,8 +50,8 @@ input_text = StringVar()
 myfont = font.Font(family='Helvetica',size=8, weight='bold')
      
 
-expression_field = Entry(main,font=('arial', 18, 'bold'), textvariable=input_text, width=14, justify=RIGHT,bg="light green") 
-expression_field.grid(columnspan=4, ipadx=70, ipady=10) 
+expression_field = Entry(main,font=('arial', 18, 'bold'), textvariable=input_text, width=14, justify=RIGHT,bg="white") 
+expression_field.grid(columnspan=4, ipadx=70, ipady=10)  
 
 
 
